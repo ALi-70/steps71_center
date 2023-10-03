@@ -557,7 +557,8 @@ ul.social-network li {
 /* footer social icons */
 
 .social-network a.icoFacebook:hover {
-  background-color: #3B5998;
+  /*background-color: #3B5998;*/
+  background-color: #007bb7;
 }
 
 .social-network a.icoLinkedin:hover {
