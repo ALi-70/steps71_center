@@ -59,16 +59,16 @@
   <div class="main-box">
     <section class="page page1" id="home">
       <div class="hero-box">
-          <div class="container">
+          <div class="container hero-content-box">
               <div class="row hero-content">
                   <div class="col-lg-6">
-                      <div class="p-5">
+                      
                           <h1 class="display-4 hero-head-txt">Touch of Comfort at your Home</h1>
                           </br>
                           <p class="lead hero-txt">Our vision & mission is to be your first choice to provide appropriate medical services by the comfort of your home & at our center</p>
                           </br>
                           <a href="#contact" class="btn btn-outline-dark hero-btn">Contact Us</a>
-                      </div>
+                      
                   </div>
                   <div class="col-lg-6">
                       <img class="w-100 hero-img" src="assets/img/medical_services_illustration.svg" />
@@ -153,7 +153,7 @@
                     <p class="about-txt">Mr Abdullah Ali Al Shibli
                         Miss Alaya Abdullah Ali Al shibli Podiatrist(Bsc in podiatry medicine, Glasgow UK)
                     </p>
-                    <p class="about-txt">Contact - aliaa.alshibli.5@gmail.com
+                    <p class="about-txt">Contact - aliaa.alshibli.5@gmail.com<br>
                         Our center is located at heart of Muscat city
                         & is active since 2019 in providing Home care</p>
                     <a href="https://instagram.com/71steps_center?igshid=MzRlODBiNWFlZA=="
@@ -314,7 +314,7 @@
   window.onscroll = () => {
     sec.forEach(section => {
       let top = window.scrollY;
-      let offset = section.offsetTop - 90;
+      let offset = section.offsetTop - 60;
       let height = section.offsetHeight;
       let id = section.getAttribute('id');
 
